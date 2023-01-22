@@ -1,0 +1,25 @@
+{
+  "name": "personal-whatsapp",
+  "version": "1.0.0",
+  "description": "curl -i -X POST `   https://graph.facebook.com/v15.0/103136212562162/messages `   -H 'Authorization: Bearer EAAK67ZArVBMcBAJHJZAcKZAZBKRtOxYRqm6TU469aZCjbSymOGjMN6ZAZBoqIZAzbZBtpN5OXXIv1XHSXTf92YWMDVug5mNDZA9VDZCmNcgN3k6PmgdqpSghN8DmGKIoKLrjtyeiSoA0ILQvmRlbeHIoCZCcbZAmGN077rcWcTWbDEZBNePgtNL8stRvbcZBNGsln1jkFFBNZBmS03ekmAZDZD' `   -H 'Content-Type: application/json' `   -d '{ \\\"messaging_product\\\": \\\"whatsapp\\\", \\\"to\\\": \\\"916379267623\\\", \\\"type\\\": \\\"template\\\", \\\"template\\\": { \\\"name\\\": \\\"hello_world\\\", \\\"language\\\": { \\\"code\\\": \\\"en_US\\\" } } }'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.4.0",
+    "axios": "^1.2.1",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.4.1",
+    "moment-timezone": "^0.5.40",
+    "node-cron": "^3.0.2",
+    "openai": "^3.1.0",
+    "uuid": "^9.0.0"
+  }
+}
