@@ -1,19 +1,4 @@
 
-Greet
-Quote
-Plan
-
-Thesaurus
-AQI
+To verify facebook webhook, run ngrok like this.
 
 ngrok http 8080 --region us
-
-
-
-text
-unsupported - poll, live location
-contacts
-document
-image
-sticker
-location
